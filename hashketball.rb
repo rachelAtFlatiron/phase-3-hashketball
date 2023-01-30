@@ -1,4 +1,16 @@
-# Write your code below game_hash
+# SWBAT
+# [ ] identify helper methods
+# [ ] use pry
+# [ ] navigate nested hashes
+# [ ] identify best enumerables to use
+
+# Together we will...
+# [ ] Review the game_hash and how to access key, value pairs
+# [ ] Identify and create helper methods
+
+# You will pair program...
+# [ ] All the other methods :) 
+
 def game_hash
   {
     home: {
@@ -126,4 +138,38 @@ def game_hash
   }
 end
 
-# Write code here
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~HELPER METHODS~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~END HELPER METHODS~~~~~~~~~~~~~~~~~~~~~
+
+#All the other methods
+
+#number of points scored by each player
+def num_points_scored
+end 
+
+#shoe size of each player
+def shoe_size 
+end 
+
+#returns team colors
+def team_colors
+end 
+
+#returns team names 
+def team_names 
+end 
+
+#returns player jersey numbers 
+def player_numbers 
+end 
+
+#returns all states for given player 
+def player_stats
+end 
+
+#eturns the number of rebounds of the player with the biggest shoe size
+def big_shoe_rebounds
+end 
+
+
