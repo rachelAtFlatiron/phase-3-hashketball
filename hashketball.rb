@@ -1,3 +1,5 @@
+require 'pry'
+
 # SWBAT
 # [ ] identify helper methods
 # [ ] use pry
@@ -11,6 +13,9 @@
 # You will pair program...
 # [ ] All the other methods :) 
 
+
+#game_hash[:home][:players]
+#game_hash[:away][:players]
 def game_hash
   {
     home: {
@@ -139,21 +144,31 @@ def game_hash
 end
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~HELPER METHODS~~~~~~~~~~~~~~~~~~~~~~~~
+def all_players 
+  #returns array of all player hashes
+  game_hash[:home][:players] + game_hash[:away][:players]
 
+end 
+
+def get_player_by_name(player_name)
+  #return hash of player
+end 
+
+def get_team_by_name(team_name)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~END HELPER METHODS~~~~~~~~~~~~~~~~~~~~~
 
 #All the other methods
 
 #number of points scored by each player
-def num_points_scored
+def num_points_scored(player_name)
 end 
 
 #shoe size of each player
-def shoe_size 
+def shoe_size(player_name)
 end 
 
 #returns team colors
-def team_colors
+def team_colors(team_name)
 end 
 
 #returns team names 
@@ -161,15 +176,17 @@ def team_names
 end 
 
 #returns player jersey numbers 
-def player_numbers 
+def player_numbers(team_name)
 end 
 
 #returns all states for given player 
-def player_stats
+def player_stats(player_name)
 end 
 
 #eturns the number of rebounds of the player with the biggest shoe size
 def big_shoe_rebounds
 end 
+
+binding.pry
 
 
